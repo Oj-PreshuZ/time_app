@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(
@@ -23,10 +24,10 @@ class Home extends StatelessWidget {
         centerTitle: true,
       ),
       body: Center(
-        child: Icon(
-          Icons.airport_shuttle,
-          color: Colors.orange,
-          size: 50.0,
+        child: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.alternate_email),
+          color: Colors.pink,
         ),
       ),
       floatingActionButton: FloatingActionButton(
